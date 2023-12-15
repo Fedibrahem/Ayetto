@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name EditText -->
+    <EditText
+        android:id="@+id/editTextName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <!-- Age EditText -->
+    <EditText
+        android:id="@+id/editTextAge1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <!-- Initial Date EditText -->
+    <EditText
+        android:id="@+id/editTextInitialDate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Initial Date" />
+
+    <!-- Final Date EditText -->
+    <EditText
+        android:id="@+id/editTextFinalDate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Final Date" />
+
+    <!-- Budget EditText -->
+    <EditText
+        android:id="@+id/editTextBudget1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Budget"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonPickImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick Image" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/buttonSave1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save" />
+    </LinearLayout>
+
+</LinearLayout>
